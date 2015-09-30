@@ -10,6 +10,8 @@ int main()
   upper = 300; /* upper limit */
   step = 20; /* step size */
 
+  printf("celsius\tfahrenheit\n");
+
   fahr = lower;
   while (fahr <= upper) {
     celsius = (5.0/9.0) * (fahr-32.0);
